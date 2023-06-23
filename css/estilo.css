@@ -91,18 +91,3 @@ input::placeholder{
     margin-top: 10px;
 }
 
-footer{
-    background-color: #09BC8A;
-    color: white;
-    font-size: small;
-    letter-spacing: 0.1em;
-    text-align: center;
-    padding: 1% 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p{
-    margin-bottom: 0;
-}
