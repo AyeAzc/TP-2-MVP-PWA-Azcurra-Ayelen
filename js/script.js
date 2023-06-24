@@ -13,7 +13,7 @@ botonbuscar.addEventListener('click', event => {
     peliculas = [];
     resultado.innerHTML = '';
 
-    fetch(`http://www.omdbapi.com/?s=${pelicula}&apikey=86775d51&`)
+    fetch(`https://www.omdbapi.com/?s=${pelicula}&apikey=86775d51&`)
     .then(respuesta => respuesta.json())
 
     .then(json=>{
